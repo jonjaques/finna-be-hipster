@@ -1,0 +1,1 @@
+this.lastModified = (new Date()).valueOf();

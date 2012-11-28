@@ -5,9 +5,17 @@
 			"name": "name",
 			"type": "string",
 			"typeLabel": "string",
-			"required": true,
+			"required": false,
 			"id": "name",
 			"order": 0
+		},
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 1
 		},
 		"createdOn": {
 			"name": "createdOn",
@@ -15,7 +23,7 @@
 			"typeLabel": "number",
 			"required": false,
 			"id": "createdOn",
-			"order": 1
+			"order": 2
 		},
 		"lastModified": {
 			"name": "lastModified",
@@ -23,22 +31,14 @@
 			"typeLabel": "number",
 			"required": false,
 			"id": "lastModified",
-			"order": 2
-		},
-		"widgets": {
-			"name": "widgets",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "widgets",
 			"order": 3
 		},
-		"pages": {
-			"name": "pages",
-			"type": "array",
-			"typeLabel": "array",
+		"params": {
+			"name": "params",
+			"type": "object",
+			"typeLabel": "object",
 			"required": false,
-			"id": "pages",
+			"id": "params",
 			"order": 4
 		}
 	}

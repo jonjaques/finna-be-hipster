@@ -1,13 +1,37 @@
 {
 	"type": "Collection",
 	"properties": {
+		"parent": {
+			"name": "parent",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "parent",
+			"order": 0
+		},
+		"path": {
+			"name": "path",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "path",
+			"order": 1
+		},
+		"active": {
+			"name": "active",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": true,
+			"id": "active",
+			"order": 2
+		},
 		"title": {
 			"name": "title",
 			"type": "string",
 			"typeLabel": "string",
-			"required": false,
+			"required": true,
 			"id": "title",
-			"order": 0
+			"order": 3
 		},
 		"name": {
 			"name": "name",
@@ -15,23 +39,87 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "name",
-			"order": 1
+			"order": 4
+		},
+		"desc": {
+			"name": "desc",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "desc",
+			"order": 5
+		},
+		"keywords": {
+			"name": "keywords",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "keywords",
+			"order": 6
+		},
+		"layout": {
+			"name": "layout",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "layout",
+			"order": 7
+		},
+		"widgets": {
+			"name": "widgets",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "widgets",
+			"order": 8
+		},
+		"allowedRoles": {
+			"name": "allowedRoles",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "allowedRoles",
+			"order": 9
+		},
+		"lastModified": {
+			"name": "lastModified",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "lastModified",
+			"order": 10
 		},
 		"createdOn": {
 			"name": "createdOn",
 			"type": "number",
 			"typeLabel": "number",
-			"required": true,
+			"required": false,
 			"id": "createdOn",
-			"order": 2
+			"order": 11
 		},
-		"fakeContent": {
-			"name": "fakeContent",
-			"type": "string",
-			"typeLabel": "string",
-			"required": true,
-			"id": "fakeContent",
-			"order": 3
+		"noIndex": {
+			"name": "noIndex",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "noIndex",
+			"order": 12
+		},
+		"noFollow": {
+			"name": "noFollow",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "noFollow",
+			"order": 13
+		},
+		"defaultPage": {
+			"name": "defaultPage",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "defaultPage",
+			"order": 14
 		}
 	}
 }
