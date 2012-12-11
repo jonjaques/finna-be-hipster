@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"user": {
+			"name": "user",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "user",
+			"order": 0
+		},
+		"sites": {
+			"name": "sites",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "sites",
+			"order": 1
+		},
+		"zones": {
+			"name": "zones",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "zones",
+			"order": 2
+		}
+	}
+}
