@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"url": {
+			"name": "url",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "url",
+			"order": 0
+		},
+		"filename": {
+			"name": "filename",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "filename",
+			"order": 1
+		},
+		"mimetype": {
+			"name": "mimetype",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "mimetype",
+			"order": 2
+		},
+		"size": {
+			"name": "size",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "size",
+			"order": 3
+		},
+		"created": {
+			"name": "created",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "created",
+			"order": 4
+		},
+		"title": {
+			"name": "title",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "title",
+			"order": 5
+		}
+	}
+}
