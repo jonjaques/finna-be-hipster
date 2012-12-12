@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"brand": {
+			"name": "brand",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "brand",
+			"order": 1
+		},
+		"image": {
+			"name": "image",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image",
+			"order": 2
+		},
+		"category": {
+			"name": "category",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "category",
+			"order": 3
+		},
+		"subcategory": {
+			"name": "subcategory",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "subcategory",
+			"order": 4
+		},
+		"catalog": {
+			"name": "catalog",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "catalog",
+			"order": 5
+		},
+		"excluded": {
+			"name": "excluded",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "excluded",
+			"order": 6
+		}
+	}
+}
