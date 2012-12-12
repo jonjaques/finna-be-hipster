@@ -1,13 +1,21 @@
 {
 	"type": "Collection",
 	"properties": {
+		"author": {
+			"name": "author",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "author",
+			"order": 0
+		},
 		"parent": {
 			"name": "parent",
 			"type": "string",
 			"typeLabel": "string",
 			"required": false,
 			"id": "parent",
-			"order": 0
+			"order": 1
 		},
 		"path": {
 			"name": "path",
@@ -15,15 +23,15 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "path",
-			"order": 1
+			"order": 2
 		},
-		"active": {
-			"name": "active",
+		"status": {
+			"name": "status",
 			"type": "boolean",
 			"typeLabel": "boolean",
-			"required": true,
-			"id": "active",
-			"order": 2
+			"required": false,
+			"id": "status",
+			"order": 3
 		},
 		"title": {
 			"name": "title",
@@ -31,7 +39,7 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "title",
-			"order": 3
+			"order": 4
 		},
 		"name": {
 			"name": "name",
@@ -39,7 +47,7 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "name",
-			"order": 4
+			"order": 5
 		},
 		"desc": {
 			"name": "desc",
@@ -47,7 +55,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "desc",
-			"order": 5
+			"order": 6
 		},
 		"keywords": {
 			"name": "keywords",
@@ -55,7 +63,7 @@
 			"typeLabel": "array",
 			"required": false,
 			"id": "keywords",
-			"order": 6
+			"order": 7
 		},
 		"layout": {
 			"name": "layout",
@@ -63,7 +71,7 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "layout",
-			"order": 7
+			"order": 8
 		},
 		"widgets": {
 			"name": "widgets",
@@ -71,14 +79,6 @@
 			"typeLabel": "array",
 			"required": true,
 			"id": "widgets",
-			"order": 8
-		},
-		"allowedRoles": {
-			"name": "allowedRoles",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "allowedRoles",
 			"order": 9
 		},
 		"lastModified": {
@@ -112,14 +112,6 @@
 			"required": false,
 			"id": "noFollow",
 			"order": 13
-		},
-		"defaultPage": {
-			"name": "defaultPage",
-			"type": "boolean",
-			"typeLabel": "boolean",
-			"required": false,
-			"id": "defaultPage",
-			"order": 14
 		}
 	}
 }

@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"productid": {
+			"name": "productid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "productid",
+			"order": 0
+		},
+		"sku": {
+			"name": "sku",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "sku",
+			"order": 1
+		},
+		"msrp": {
+			"name": "msrp",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "msrp",
+			"order": 2
+		}
+	}
+}
