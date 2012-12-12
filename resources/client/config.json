@@ -24,6 +24,22 @@
 			"required": false,
 			"id": "zones",
 			"order": 2
+		},
+		"username": {
+			"name": "username",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "username",
+			"order": 3
+		},
+		"password": {
+			"name": "password",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "password",
+			"order": 4
 		}
 	}
 }
