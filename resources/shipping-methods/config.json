@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"preloaded": {
+			"name": "preloaded",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "preloaded",
+			"order": 1
+		},
+		"enabled": {
+			"name": "enabled",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "enabled",
+			"order": 2
+		}
+	}
+}

@@ -48,6 +48,22 @@
 			"required": false,
 			"id": "title",
 			"order": 5
+		},
+		"caption": {
+			"name": "caption",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "caption",
+			"order": 6
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 7
 		}
 	}
 }
