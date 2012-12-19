@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"method": {
+			"name": "method",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "method",
+			"order": 0
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 1
+		},
+		"enabled": {
+			"name": "enabled",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "enabled",
+			"order": 2
+		},
+		"hasOverLimit": {
+			"name": "hasOverLimit",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "hasOverLimit",
+			"order": 3
+		},
+		"overLimitRate": {
+			"name": "overLimitRate",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "overLimitRate",
+			"order": 4
+		},
+		"preloaded": {
+			"name": "preloaded",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "preloaded",
+			"order": 5
+		}
+	}
+}

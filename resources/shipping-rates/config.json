@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"service": {
+			"name": "service",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "service",
+			"order": 0
+		},
+		"limit": {
+			"name": "limit",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "limit",
+			"order": 1
+		},
+		"rate": {
+			"name": "rate",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "rate",
+			"order": 2
+		}
+	}
+}
