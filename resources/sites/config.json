@@ -1,28 +1,28 @@
 {
 	"type": "Collection",
 	"properties": {
-		"username": {
-			"name": "username",
-			"type": "string",
-			"typeLabel": "string",
-			"required": false,
-			"id": "username",
-			"order": 0
-		},
-		"token": {
-			"name": "token",
-			"type": "string",
-			"typeLabel": "string",
-			"required": false,
-			"id": "token",
-			"order": 1
-		},
 		"name": {
 			"name": "name",
 			"type": "string",
 			"typeLabel": "string",
 			"required": false,
 			"id": "name",
+			"order": 0
+		},
+		"url": {
+			"name": "url",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "url",
+			"order": 1
+		},
+		"perm": {
+			"name": "perm",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "perm",
 			"order": 2
 		}
 	}
