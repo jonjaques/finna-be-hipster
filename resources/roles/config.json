@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"zones": {
+			"name": "zones",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "zones",
+			"order": 2
+		},
+		"permanent": {
+			"name": "permanent",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "permanent",
+			"order": 3
+		}
+	}
+}

@@ -9,21 +9,13 @@
 			"id": "actions",
 			"order": 0
 		},
-		"desc": {
-			"name": "desc",
+		"description": {
+			"name": "description",
 			"type": "string",
 			"typeLabel": "string",
 			"required": false,
-			"id": "desc",
+			"id": "description",
 			"order": 1
-		},
-		"title": {
-			"name": "title",
-			"type": "string",
-			"typeLabel": "string",
-			"required": false,
-			"id": "title",
-			"order": 2
 		},
 		"url": {
 			"name": "url",
@@ -31,6 +23,14 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "url",
+			"order": 2
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
 			"order": 3
 		}
 	}
