@@ -24,6 +24,38 @@
 			"required": false,
 			"id": "name",
 			"order": 2
+		},
+		"role": {
+			"name": "role",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "role",
+			"order": 3
+		},
+		"firstname": {
+			"name": "firstname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "firstname",
+			"order": 4
+		},
+		"lastname": {
+			"name": "lastname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "lastname",
+			"order": 5
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "email",
+			"order": 6
 		}
 	}
 }
