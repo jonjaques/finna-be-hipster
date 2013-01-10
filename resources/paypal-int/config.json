@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"payvia": {
+			"name": "payvia",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "payvia",
+			"order": 0
+		},
+		"apisignature": {
+			"name": "apisignature",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "apisignature",
+			"order": 1
+		},
+		"apiusername": {
+			"name": "apiusername",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "apiusername",
+			"order": 2
+		},
+		"apipassword": {
+			"name": "apipassword",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "apipassword",
+			"order": 3
+		},
+		"emailaddress": {
+			"name": "emailaddress",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "emailaddress",
+			"order": 4
+		},
+		"process": {
+			"name": "process",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "process",
+			"order": 5
+		},
+		"verified": {
+			"name": "verified",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "verified",
+			"order": 6
+		}
+	}
+}

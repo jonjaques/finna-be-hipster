@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"active": {
+			"name": "active",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "active",
+			"order": 0
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 1
+		},
+		"options": {
+			"name": "options",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "options",
+			"order": 2
+		}
+	}
+}
